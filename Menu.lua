@@ -459,7 +459,7 @@ local function C_13()
 
 	G2L["13"].Parent.MouseButton1Click:Connect(function()
 		local bartTeam = Teams:FindFirstChild("Bart") or Teams:FindFirstChild("Barts")
-		if not bartTeam then warn("Time Bart não encontrado!") return end
+		if not bartTeam then warn("Time Bart nÃ£o encontrado!") return end
 		local bartPlayers = {}
 		for _, p in ipairs(Players:GetPlayers()) do
 			if p.Team == bartTeam and p ~= localPlayer then table.insert(bartPlayers, p) end
@@ -484,7 +484,7 @@ local function C_17()
 
 	G2L["17"].Parent.MouseButton1Click:Connect(function()
 		local homerTeam = Teams:FindFirstChild("Homer")
-		if not homerTeam then warn("Time Homer não encontrado!") return end
+		if not homerTeam then warn("Time Homer nÃ£o encontrado!") return end
 		local homerPlayers = {}
 		for _, p in ipairs(Players:GetPlayers()) do
 			if p.Team == homerTeam and p ~= localPlayer then table.insert(homerPlayers, p) end
